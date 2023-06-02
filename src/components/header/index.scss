@@ -1,0 +1,54 @@
+#header {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+    &--btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 15%;
+
+      i {
+        font-size: 17px;
+      }
+
+      a {
+        font-size: 25px;
+        color: #FE5F1E;
+      }
+    }
+
+    &__logo {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 60px;
+        padding-right: 15px;
+      }
+
+      h1 {
+        font-family: 'Proxima Nova', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #181818;
+      }
+
+      p {
+        font-family: 'Proxima Nova', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #7B7B7B;
+      }
+    }
+  }
+}

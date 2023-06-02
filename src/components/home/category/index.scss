@@ -1,0 +1,43 @@
+#categories {
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 30px 0;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        list-style-type: none;
+        cursor: pointer;
+        margin: 0 2%;
+        padding: 10px 20px;
+        background: #F9F9F9;
+        border-radius: 30px;
+        font-family: 'Proxima Nova', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #2C2C2C;
+
+        &:hover {
+          transition: 0.5s all;
+          background: rgba(0, 0, 0, 0.5);
+          color: #FFFFFF;
+        }
+
+        &.active {
+          transition: 0.5s all;
+          background: #282828;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
